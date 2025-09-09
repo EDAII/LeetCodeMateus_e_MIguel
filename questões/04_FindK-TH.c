@@ -1,40 +1,42 @@
-#include <stdio.h>
 #include <stdlib.h>
 
-
-long long calcular_horas(int* pilhas, int tamanho, long long velocidade) {
-    long long horas = 0;
-    for (int i = 0; i < tamanho; i++) {
-        horas += (pilhas[i] + velocidade - 1) / velocidade;
-    }
-    return horas;
+// Função de comparação usada no qsort
+int comparar(const void* a, const void* b) {
+    return (*(int*)a - *(int*)b);
 }
 
-// Função q encontra a menor velocidade usando busca binária
-int minEatingSpeed(int* piles, int pilesSize, int h) {
-    
-    long long esquerda = 1; 
-    long long direita = 0;
-    for (int i = 0; i < pilesSize; i++) {
-        if (piles[i] > direita) {
-            direita = piles[i];
+// Conta quantos pares têm distância <= dist
+int contar_pares(int* nums, int n, int dist) {
+    int total = 0;
+    int j = 0;
+
+    for (int i = 0; i < n; i++) {
+        while (j < n && nums[j] - nums[i] <= dist) {
+            j++;
         }
+        total += j - i - 1;
     }
-    
-    // Busca binária
-    int resultado = direita;
-    while (esquerda <= direita) {
-        long long meio = esquerda + (direita - esquerda) / 2; // Evita estouro
-        long long horas_necessarias = calcular_horas(piles, pilesSize, meio);
-        
-        if (horas_necessarias <= h) {          
-            resultado = meio;
-            direita = meio - 1;
+
+    return total;
+}
+
+// Retorna o k-ésimo menor par de distância
+int smallestDistancePair(int* nums, int numsSize, int k) {
+    qsort(nums, numsSize, sizeof(int), comparar);
+
+    int menor = 0;
+    int maior = nums[numsSize - 1] - nums[0];
+
+    // Busca binária para encontrar a menor distância
+    while (menor < maior) {
+        int meio = menor + (maior - menor) / 2;
+
+        if (contar_pares(nums, numsSize, meio) >= k) {
+            maior = meio;
         } else {
-            
-            esquerda = meio + 1;
+            menor = meio + 1;
         }
     }
-    
-    return resultado;
+
+    return menor;
 }
