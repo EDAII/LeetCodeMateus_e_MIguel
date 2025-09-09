@@ -1,4 +1,4 @@
-# Projeto: Algoritmos de Busca - LeetCode
+# Projeto: Algoritmos de Busca binária - Exercícos no LeetCode
 
 ## Alunos
 | Matrícula | Nome |
@@ -8,20 +8,23 @@
 
 ## Descrição do Projeto
 
-Este projeto foi desenvolvido como parte da disciplina de **Estruturas de Dados e Algoritmos II (EDA2)**, com foco no estudo e implementação de diferentes estratégias de busca. Foi utilizado a plataforma **LeetCode**.
+Este projeto foi desenvolvido como parte do primeiro trabalho da disciplina de **Estruturas de Dados e Algoritmos II (EDA2)**, focado no estudo e implementação do algoritmo de busca binária. 
+Foi utilizado a plataforma **LeetCode** para a realização da atividade e como base para os exercícios.
 
 ### Exercícios Selecionados
 
-Para este projeto, foram selecionados **2 exercícios nível Médio** e **2 exercícios  nível Difícil**, contemplando diferentes abordagens de busca.
+
+
+> Para este projeto, foram selecionados **2 exercícios nível Médio** e **2 exercícios nível Difícil**.
 
 | Exercício | Dificuldade | Método de Busca |
-|-----------|------------|----------------|
-| [01. Time-based-key-value-store](https://leetcode.com/problems/time-based-key-value-store/description/) | Médio | Backtracking /  Busca Binária |
-| [02. Find Minimum In Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/) | Difícil | Busca Binária em Arrays Rotacionados |
+|-----------|-------------|-----------------|
+| [01. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/description/) | Médio | Dicionários + Busca Binária |
+| [02. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/description/) | Difícil | Busca Binária em Espaço de Resposta + Greedy |
 | [03. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/description/) | Médio | Busca Binária em Espaço de Resposta |
-| [04. Super Egg Drop](https://leetcode.com/problems/super-egg-drop/description/) | Difícil | Programação Dinâmica / Busca Binária |
+| [04. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/) | Difícil | Busca Binária em Espaço de Resposta + Contagem de Pares |
 
-## Exercícios Desenvolvidos
+
 
 # Exercícios Desenvolvidos
 
