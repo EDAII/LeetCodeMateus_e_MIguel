@@ -24,7 +24,7 @@ int minEatingSpeed(int* piles, int pilesSize, int h) {
     // Busca binária
     int resultado = direita;
     while (esquerda <= direita) {
-        long long meio = esquerda + (direita - esquerda) / 2; // Evita estouro
+        long long meio = esquerda + (direita - esquerda) / 2; 
         long long horas_necessarias = calcular_horas(piles, pilesSize, meio);
         
         if (horas_necessarias <= h) {          
