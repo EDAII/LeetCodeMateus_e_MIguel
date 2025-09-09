@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "FindK-TH.C": "cpp"
+        "FindK-TH.C": "cpp",
+        "04_FindK-TH.C": "cpp"
     }
 }
