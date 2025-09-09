@@ -32,9 +32,8 @@ Foi utilizado a plataforma **LeetCode** para a realização da atividade e como 
 
 **Conceito**: Problema que envolve armazenar pares chave-valor com timestamps e permitir consultas pelo valor mais recente até um determinado tempo. A solução utiliza **dicionários e busca binária** para recuperar rapidamente o valor correto.  
 
-![Resultados do Exercício 981](./assets/Enuciados/TimeBased.png)
 
-[Link para o exercício no LeetCode](https://leetcode.com/problems/time-based-key-value-store/)
+[Link do exercício no LeetCode](https://leetcode.com/problems/time-based-key-value-store/)
 
 ---
 
@@ -42,9 +41,8 @@ Foi utilizado a plataforma **LeetCode** para a realização da atividade e como 
 
 **Conceito**: Problema que busca dividir um array em `m` subarrays consecutivos de forma que a soma máxima entre os subarrays seja mínima. A solução utiliza **busca binária sobre o espaço de resposta** combinada com verificação gulosa para determinar se uma divisão é possível.  
 
-![Resultados do Exercício 410](./assets/Enuciados/array.png)
 
-[Link para o exercício no LeetCode](https://leetcode.com/problems/split-array-largest-sum/)
+[Link do exercício no LeetCode](https://leetcode.com/problems/split-array-largest-sum/)
 
 ---
 
@@ -52,9 +50,7 @@ Foi utilizado a plataforma **LeetCode** para a realização da atividade e como 
 
 **Conceito**: Problema que envolve determinar a menor taxa de velocidade em que Koko consegue comer todas as bananas dentro de um limite de horas. A solução aplica **busca binária sobre o espaço de resposta** para encontrar a taxa ideal.  
 
-![Resultados do Exercício 875](./assets/875_Koko.png)
-
-[Link para o exercício no LeetCode](https://leetcode.com/problems/koko-eating-bananas/)
+[Link do exercício no LeetCode](https://leetcode.com/problems/koko-eating-bananas/)
 
 ---
 
@@ -62,9 +58,8 @@ Foi utilizado a plataforma **LeetCode** para a realização da atividade e como 
 
 **Conceito**: Problema que busca o k-ésimo menor valor absoluto da diferença entre pares em um array. A solução combina **busca binária sobre o espaço de resposta** com contagem eficiente de pares para reduzir a complexidade.  
 
-![Resultados do Exercício 719](./assets/719_Find.png)
 
-[Link para o exercício no LeetCode](https://leetcode.com/problems/find-k-th-smallest-pair-distance/)
+[Link do exercício no LeetCode](https://leetcode.com/problems/find-k-th-smallest-pair-distance/)
 
 
 ---
