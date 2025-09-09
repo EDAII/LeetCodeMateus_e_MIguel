@@ -90,17 +90,19 @@ Foi utilizado a plataforma **LeetCode** para a realização da atividade e como 
 
 Aqui estão algumas imagens que demonstram o projeto.
 
+
 ### Imagem 1
-![Find](assets/Find.png)
-
-### Imagem 2
-![Koko](assets/koko.png)
-
-### Imagem 3
 ![Split](assets/split.png)
 
-### Imagem 4
+### Imagem 2
 ![Timebased](assets/timebased.png)
+
+### Imagem 3
+![Koko](assets/koko.png)
+
+### Imagem 4
+![Find](assets/Find.png)
+
 
 
 
