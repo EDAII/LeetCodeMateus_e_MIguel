@@ -3,8 +3,8 @@
 ## Alunos
 | Matrícula | Nome |
 |-----------|------|
-| 21/1062240 | Mateus Bastos |
-| 21/1062320 | Miguel Arhtur |
+| 21/1062240 | Mateus Bastos dos Santos |
+| 21/1062320 | Miguel Arhtur Oliveira de Lima |
 
 ## Descrição do Projeto
 
@@ -32,7 +32,7 @@ Foi utilizado a plataforma **LeetCode** para a realização da atividade e como 
 
 **Conceito**: Problema que envolve armazenar pares chave-valor com timestamps e permitir consultas pelo valor mais recente até um determinado tempo. A solução utiliza **dicionários e busca binária** para recuperar rapidamente o valor correto.  
 
-![Resultados do Exercício 981](./Assets/981_TimeBasedKeyValueStore.png)
+![Resultados do Exercício 981](./assets/Enuciados/TimeBased.png)
 
 [Link para o exercício no LeetCode](https://leetcode.com/problems/time-based-key-value-store/)
 
@@ -42,7 +42,7 @@ Foi utilizado a plataforma **LeetCode** para a realização da atividade e como 
 
 **Conceito**: Problema que busca dividir um array em `m` subarrays consecutivos de forma que a soma máxima entre os subarrays seja mínima. A solução utiliza **busca binária sobre o espaço de resposta** combinada com verificação gulosa para determinar se uma divisão é possível.  
 
-![Resultados do Exercício 410](./Assets/410_SplitArrayLargestSum.png)
+![Resultados do Exercício 410](./assets/Enuciados/410_SplitArrayLargestSum.png)
 
 [Link para o exercício no LeetCode](https://leetcode.com/problems/split-array-largest-sum/)
 
@@ -52,7 +52,7 @@ Foi utilizado a plataforma **LeetCode** para a realização da atividade e como 
 
 **Conceito**: Problema que envolve determinar a menor taxa de velocidade em que Koko consegue comer todas as bananas dentro de um limite de horas. A solução aplica **busca binária sobre o espaço de resposta** para encontrar a taxa ideal.  
 
-![Resultados do Exercício 875](./Assets/875_KokoEatingBananas.png)
+![Resultados do Exercício 875](./assets/875_KokoEatingBananas.png)
 
 [Link para o exercício no LeetCode](https://leetcode.com/problems/koko-eating-bananas/)
 
@@ -62,7 +62,7 @@ Foi utilizado a plataforma **LeetCode** para a realização da atividade e como 
 
 **Conceito**: Problema que busca o k-ésimo menor valor absoluto da diferença entre pares em um array. A solução combina **busca binária sobre o espaço de resposta** com contagem eficiente de pares para reduzir a complexidade.  
 
-![Resultados do Exercício 719](./Assets/719_FindKthSmallestPairDistance.png)
+![Resultados do Exercício 719](./assets/719_FindKthSmallestPairDistance.png)
 
 [Link para o exercício no LeetCode](https://leetcode.com/problems/find-k-th-smallest-pair-distance/)
 
@@ -76,14 +76,17 @@ Foi utilizado a plataforma **LeetCode** para a realização da atividade e como 
 2. Crie uma conta gratuita ou faça login
 
 ### Passo 2: Navegar para o Exercício
-1. Pesquise pelo número do exercício (ex: "875" ou "887")
+1. Pesquise pelo número do exercício (ex: "981" ou "719")
 2. Ou clique diretamente nos links fornecidos na tabela acima
 
 ### Passo 3: Submeter o Código
-1. Selecione  **C** como linguagem
-2. Copie o código do repositório local
-3. Cole no editor do LeetCode
-4. Clique em **Run** para testar com exemplos
+> 1. Selecione  **C++** como linguagem para os exercícios 01 e 02 e **C** para os exercícios 03 e 04.
+
+> 2. Copie o código do repositório local
+
+> 3. Cole no editor do LeetCode
+
+> 4. Clique no ícone **Run** para rodar o código.
 
 ---
 
