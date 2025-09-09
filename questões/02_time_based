@@ -1,4 +1,4 @@
-'''981. Time Based Key-Value Store
+/*981. Time Based Key-Value Store
 Medium
 Topics
 premium lock iconCompanies
@@ -40,9 +40,9 @@ Constraints:
     All the timestamps timestamp of set are strictly increasing.
     At most 2 * 105 calls will be made to set and get.
 
-'''
+*/
 
-'''RESPOSTA'''
+// RESPOSTA:
 
 class TimeMap {
 public:
