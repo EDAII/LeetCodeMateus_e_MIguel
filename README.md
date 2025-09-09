@@ -42,7 +42,7 @@ Foi utilizado a plataforma **LeetCode** para a realização da atividade e como 
 
 **Conceito**: Problema que busca dividir um array em `m` subarrays consecutivos de forma que a soma máxima entre os subarrays seja mínima. A solução utiliza **busca binária sobre o espaço de resposta** combinada com verificação gulosa para determinar se uma divisão é possível.  
 
-![Resultados do Exercício 410](./assets/Enuciados/410_SplitArrayLargestSum.png)
+![Resultados do Exercício 410](./assets/Enuciados/array.png)
 
 [Link para o exercício no LeetCode](https://leetcode.com/problems/split-array-largest-sum/)
 
@@ -52,7 +52,7 @@ Foi utilizado a plataforma **LeetCode** para a realização da atividade e como 
 
 **Conceito**: Problema que envolve determinar a menor taxa de velocidade em que Koko consegue comer todas as bananas dentro de um limite de horas. A solução aplica **busca binária sobre o espaço de resposta** para encontrar a taxa ideal.  
 
-![Resultados do Exercício 875](./assets/875_KokoEatingBananas.png)
+![Resultados do Exercício 875](./assets/875_Koko.png)
 
 [Link para o exercício no LeetCode](https://leetcode.com/problems/koko-eating-bananas/)
 
@@ -62,7 +62,7 @@ Foi utilizado a plataforma **LeetCode** para a realização da atividade e como 
 
 **Conceito**: Problema que busca o k-ésimo menor valor absoluto da diferença entre pares em um array. A solução combina **busca binária sobre o espaço de resposta** com contagem eficiente de pares para reduzir a complexidade.  
 
-![Resultados do Exercício 719](./assets/719_FindKthSmallestPairDistance.png)
+![Resultados do Exercício 719](./assets/719_Find.png)
 
 [Link para o exercício no LeetCode](https://leetcode.com/problems/find-k-th-smallest-pair-distance/)
 
@@ -90,4 +90,25 @@ Foi utilizado a plataforma **LeetCode** para a realização da atividade e como 
 
 ---
 
+### LINK da Apresentação:
 
+
+
+<h2 align="center">🎥 Vídeo</h2>
+
+<p align="center">Explicamos todos os códigos que fizemos na plataforma  LeetCode:</p>
+
+<div align="center">
+
+  <table>
+    <tr>
+      <td align="center"><b>Vídeo 01</b></td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="https://youtu.be/kv9DrE-i0_Q" target="_blank">Apresentação Exercícios Leet Code – EDA II – UnB FCTE</a>
+      </td>
+    </tr>
+  </table>
+
+</div>
